@@ -161,7 +161,6 @@
   border-radius: 40px 40px 40px 40px;
   overflow: hidden;
 }
-
 .Projects-Box {
   position: absolute;
   width: 22%;
@@ -171,4 +170,22 @@
                     radial-gradient(circle at 95%, hsl(128, 50%, 60%), transparent 100%);
   border-radius: 40px 40px 40px 40px;
   overflow: hidden;
+}
+.Projects-Box-inner {
+  position: absolute;
+  width: 22%;
+  height: 70%;
+  transform: translate(130%, 20%);
+  background-image: radial-gradient(circle at 5%, hsl(56, 100%, 82%),  transparent 100%), 
+                    radial-gradient(circle at 95%, hsl(128, 50%, 60%), transparent 300%);
+  border-radius: 40px 40px 40px 40px;
+  color: hsl(130, 27%, 40%);
+  overflow: hidden;
+  font-family: 'TopFont', sans-serif;
+  font-size: 200%;
+}
+.Projects-Box-Text {
+  font-family: 'MainFont', sans-serif;
+  font-size: 50%;
+  transform: translate(0%, -100%);
 }
