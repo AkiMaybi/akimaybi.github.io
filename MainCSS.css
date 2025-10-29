@@ -1,0 +1,174 @@
+@font-face {
+  font-family: 'TopFont';
+  src: url('Fonts/LEMONMILK-Regular.otf');
+}
+@font-face {
+  font-family: 'MainFont';
+  src: url(Fonts/LEMONMILK-Light.otf);
+}
+
+
+
+.Main-Box {
+  width: 90%;
+  height: 86%;
+  box-sizing: border-box;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 25px 25px 25px 25px;
+  color: hsl(0, 0%, 0%);
+  transform: translate(5%,7%);
+  position: absolute;
+}
+
+.Top-Bar {
+  width: 100%;
+  height: 8%;
+  box-sizing: border-box;
+  background-image: radial-gradient(circle at 5%, hsl(56, 100%, 86%),  transparent 100%), 
+                    radial-gradient(circle at 95%, hsl(143, 100%, 91%), transparent 100%);
+  border-radius: 25px 25px 0px 0px;
+  transform: translate(0%, 00%);
+  position: absolute;
+}
+.UnderBox {
+  height: 10%;
+  background-color: hsl(44, 100%, 71%);
+}
+.Top-Bar-Home {
+  position: absolute;
+  width: 5%;
+  height: 2%;
+  box-sizing: border-box;
+  border: none;
+  background-color: transparent;
+  font-family: 'TopFont', sans-serif;
+  font-size: 100%;
+
+  transform: translate(300%, 125%);
+}
+.Top-Bar-About {
+  position: absolute;
+  width: 10%;
+  height: 2%;
+  box-sizing: border-box;
+  border: none;
+  background-color: transparent;
+  font-family: 'TopFont', sans-serif;
+  font-size: 100%;
+
+  transform: translate(200%, 125%);
+}
+.Top-Bar-Projects {
+  position: absolute;
+  width: 5%;
+  height: 2%;
+  box-sizing: border-box;
+  border: none;
+  background-color: transparent;
+  font-family: 'TopFont', sans-serif;
+  font-size: 100%;
+
+  transform: translate(620%, 125%);
+}
+.Top-Bar-Contact {
+  position: absolute;
+  width: 5%;
+  height: 2%;
+  box-sizing: border-box;
+  border: none;
+  background-color: transparent;
+  font-family: 'TopFont', sans-serif;
+  font-size: 100%;
+
+  transform: translate(780%, 125%);
+}
+
+
+.MainText-1 {
+  position: absolute;
+  width: 40%;
+  height: 2%;
+  box-sizing: border-box;
+  border: none;
+  background-color: transparent;
+  font-family: 'MainFont', sans-serif;
+  font-size: 250%;
+
+  transform: translate(30.5%, 1500%);
+}
+.MainText-2 {
+  position: absolute;
+  width: 40%;
+  height: 2%;
+  box-sizing: border-box;
+  border: none;
+  background-color: transparent;
+  font-family: 'MainFont', sans-serif;
+  font-size: 500%;
+
+  transform: translate(30%, 1500%);
+}
+.MainText-3 {
+  position: absolute;
+  width: 40%;
+  height: 2%;
+  box-sizing: border-box;
+  border: none;
+  background-color: transparent;
+  font-family: 'MainFont', sans-serif;
+  font-size: 100%;
+
+  transform: translate(30.5%, 2400%);
+}
+
+.UnderButton-1 {
+  position: absolute;
+  width: 14%;
+  height: 5%;
+  box-sizing: border-box;
+  border: none;
+  color: white;
+  background-image: radial-gradient(circle at 5%, hsl(270, 3%, 25%),  transparent 100%), 
+                    radial-gradient(circle at 95%, hsl(231, 12%, 45%), transparent 100%);
+  border-radius: 10px 10px 10px 10px;
+  font-family: 'TopFont', sans-serif;
+  font-size: 120%;
+
+  transform: translate(85%, 1100%);
+}
+.UnderButton-2 {
+  position: absolute;
+  width: 14%;
+  height: 5%;
+  box-sizing: border-box;
+  border-color: radial-gradient(circle at 5%, hsl(118, 93%, 84%),  transparent 100%), 
+                radial-gradient(circle at 95%, hsl(128, 50%, 60%), transparent 100%);
+  border-radius: 10px 10px 10px 10px;
+  font-family: 'TopFont', sans-serif;
+  font-size: 120%;
+
+  transform: translate(200%, 1100%);
+}
+
+
+.Colored-Box {
+  position: absolute;
+  width: 40%;
+  height: 70%;
+  transform: translate(130%, 20%);
+  background-image: radial-gradient(circle at 5%, hsl(56, 100%, 82%),  transparent 100%), 
+                    radial-gradient(circle at 95%, hsl(128, 50%, 60%), transparent 100%);
+  border-radius: 40px 40px 40px 40px;
+  overflow: hidden;
+}
+
+.Projects-Box {
+  position: absolute;
+  width: 22%;
+  height: 70%;
+  transform: translate(130%, 20%);
+  background-image: radial-gradient(circle at 5%, hsl(56, 100%, 82%),  transparent 100%), 
+                    radial-gradient(circle at 95%, hsl(128, 50%, 60%), transparent 100%);
+  border-radius: 40px 40px 40px 40px;
+  overflow: hidden;
+}
